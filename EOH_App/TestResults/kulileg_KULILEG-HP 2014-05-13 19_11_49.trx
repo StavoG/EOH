@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7715a14d-5c51-4444-943d-86db23afb5e5" name="kulileg@KULILEG-HP 2014-05-13 19:11:49" runUser="kulileg-HP\kulileg" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904f3a5e-93ca-4206-b334-d95ff72784bf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\kulileg\Desktop\EOH_App\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="kulileg_KULILEG-HP 2014-05-13 19_11_49">
+      <DeploymentItem filename="C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\bin\Debug\EOH_DataAccess.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T19:11:49.2678510+02:00" queuing="2014-05-13T19:11:52.5200370+02:00" start="2014-05-13T19:11:53.0250659+02:00" finish="2014-05-13T19:12:03.1436446+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPerson2" storage="c:\users\kulileg\desktop\eoh_app\eoh_da_test\bin\debug\eoh_da_test.dll" id="beae72f0-386f-1054-fe6f-6704bfa86880">
+      <Execution id="691f0c20-38df-473f-9715-83f1f81945b2" />
+      <TestMethod codeBase="C:/Users/kulileg/Desktop/EOH_App/EOH_DA_Test/bin/Debug/EOH_DA_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EOH_DA_Test.CrudTest, EOH_DA_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPerson2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="beae72f0-386f-1054-fe6f-6704bfa86880" executionId="691f0c20-38df-473f-9715-83f1f81945b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="691f0c20-38df-473f-9715-83f1f81945b2" testId="beae72f0-386f-1054-fe6f-6704bfa86880" testName="GetPerson2" computerName="KULILEG-HP" duration="00:00:06.3421589" startTime="2014-05-13T19:11:53.2910811+02:00" endTime="2014-05-13T19:12:01.4505478+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="691f0c20-38df-473f-9715-83f1f81945b2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

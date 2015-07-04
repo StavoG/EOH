@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="749d5bee-177e-432a-8050-7b2a68abb971" name="kulileg@KULILEG-HP 2014-05-13 19:02:10" runUser="kulileg-HP\kulileg" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904f3a5e-93ca-4206-b334-d95ff72784bf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kulileg_KULILEG-HP 2014-05-13 19_02_10">
+      <DeploymentItem filename="C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\bin\Debug\EOH_DataAccess.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T19:02:10.5247488+02:00" queuing="2014-05-13T19:02:15.4650313+02:00" start="2014-05-13T19:02:15.8850554+02:00" finish="2014-05-13T19:02:16.8601111+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KULILEG-HP" outcome="Error" timestamp="2014-05-13T19:02:16.8051080+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPerson" storage="c:\users\kulileg\desktop\eoh_app\eoh_da_test\bin\debug\eoh_da_test.dll" id="cf2aa361-2810-1ae9-0e3c-a868dfdbbd56">
+      <Execution id="d3d6a411-486b-40fe-987e-fdeb0fa2ffc0" />
+      <TestMethod codeBase="C:/Users/kulileg/Desktop/EOH_App/EOH_DA_Test/bin/Debug/EOH_DA_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EOH_DA_Test.CrudTest, EOH_DA_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPerson" />
+    </UnitTest>
+    <UnitTest name="GetPerson2" storage="c:\users\kulileg\desktop\eoh_app\eoh_da_test\bin\debug\eoh_da_test.dll" id="beae72f0-386f-1054-fe6f-6704bfa86880">
+      <Execution id="05b7ae48-1b56-4908-8f07-35e7818aabc8" />
+      <TestMethod codeBase="C:/Users/kulileg/Desktop/EOH_App/EOH_DA_Test/bin/Debug/EOH_DA_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EOH_DA_Test.CrudTest, EOH_DA_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPerson2" />
+    </UnitTest>
+    <UnitTest name="GetPerson1" storage="c:\users\kulileg\desktop\eoh_app\eoh_da_test\bin\debug\eoh_da_test.dll" id="372c8834-98d1-499b-61b0-fdaf77c956b5">
+      <Execution id="596dbc32-acac-4467-85d1-1bf9c8e1a374" />
+      <TestMethod codeBase="C:/Users/kulileg/Desktop/EOH_App/EOH_DA_Test/bin/Debug/EOH_DA_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EOH_DA_Test.CrudTest, EOH_DA_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPerson1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cf2aa361-2810-1ae9-0e3c-a868dfdbbd56" executionId="d3d6a411-486b-40fe-987e-fdeb0fa2ffc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="372c8834-98d1-499b-61b0-fdaf77c956b5" executionId="596dbc32-acac-4467-85d1-1bf9c8e1a374" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beae72f0-386f-1054-fe6f-6704bfa86880" executionId="05b7ae48-1b56-4908-8f07-35e7818aabc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d3d6a411-486b-40fe-987e-fdeb0fa2ffc0" testId="cf2aa361-2810-1ae9-0e3c-a868dfdbbd56" testName="GetPerson" computerName="KULILEG-HP" duration="00:00:00.5390309" startTime="2014-05-13T19:02:16.2730775+02:00" endTime="2014-05-13T19:02:16.8121084+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3d6a411-486b-40fe-987e-fdeb0fa2ffc0">
+    </UnitTestResult>
+    <UnitTestResult executionId="596dbc32-acac-4467-85d1-1bf9c8e1a374" testId="372c8834-98d1-499b-61b0-fdaf77c956b5" testName="GetPerson1" computerName="KULILEG-HP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="596dbc32-acac-4467-85d1-1bf9c8e1a374">
+    </UnitTestResult>
+    <UnitTestResult executionId="05b7ae48-1b56-4908-8f07-35e7818aabc8" testId="beae72f0-386f-1054-fe6f-6704bfa86880" testName="GetPerson2" computerName="KULILEG-HP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05b7ae48-1b56-4908-8f07-35e7818aabc8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

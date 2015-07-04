@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1071d97e-c552-4d45-bf3d-b32dbef4cceb" name="kulileg@KULILEG-HP 2014-05-13 18:51:34" runUser="kulileg-HP\kulileg" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="904f3a5e-93ca-4206-b334-d95ff72784bf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kulileg_KULILEG-HP 2014-05-13 18_51_34">
+      <DeploymentItem filename="C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\bin\Debug\EOH_DataAccess.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-13T18:51:34.6623795+02:00" queuing="2014-05-13T18:51:56.5936339+02:00" start="2014-05-13T18:51:58.1957255+02:00" finish="2014-05-13T18:54:12.0693827+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="KULILEG-HP" outcome="Error" timestamp="2014-05-13T18:54:12.0583820+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetPerson" storage="c:\users\kulileg\desktop\eoh_app\eoh_da_test\bin\debug\eoh_da_test.dll" id="cf2aa361-2810-1ae9-0e3c-a868dfdbbd56">
+      <Execution id="32a77d55-75e7-4cf3-9bae-df34d9dd8277" />
+      <TestMethod codeBase="C:/Users/kulileg/Desktop/EOH_App/EOH_DA_Test/bin/Debug/EOH_DA_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EOH_DA_Test.CrudTest, EOH_DA_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetPerson" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cf2aa361-2810-1ae9-0e3c-a868dfdbbd56" executionId="32a77d55-75e7-4cf3-9bae-df34d9dd8277" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="32a77d55-75e7-4cf3-9bae-df34d9dd8277" testId="cf2aa361-2810-1ae9-0e3c-a868dfdbbd56" testName="GetPerson" computerName="KULILEG-HP" duration="00:02:13.0996128" startTime="2014-05-13T18:51:58.9687698+02:00" endTime="2014-05-13T18:54:12.0683826+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32a77d55-75e7-4cf3-9bae-df34d9dd8277">
+    </UnitTestResult>
+  </Results>
+</TestRun>

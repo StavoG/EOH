@@ -1,0 +1,7 @@
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\obj\Debug\EOH_Service.csprojResolveAssemblyReference.cache
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\bin\EOH_Service.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\bin\EOH_Service.pdb
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\bin\EOH_DataAccess.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\bin\EOH_DataAccess.pdb
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\obj\Debug\EOH_Service.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_Service\obj\Debug\EOH_Service.pdb

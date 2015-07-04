@@ -1,0 +1,8 @@
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\obj\Debug\EOH_DA_Test.csprojResolveAssemblyReference.cache
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\bin\Debug\EOH_DA_Test.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\bin\Debug\EOH_DA_Test.pdb
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\bin\Debug\EOH_DataAccess.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\bin\Debug\EOH_DataAccess.pdb
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\obj\Debug\EOH_DA_Test.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\obj\Debug\EOH_DA_Test.pdb
+C:\Users\kulileg\Desktop\EOH_App\EOH_DA_Test\bin\Debug\EOH_DA_Test.dll.config

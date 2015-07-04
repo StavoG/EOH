@@ -1,0 +1,5 @@
+C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\bin\Debug\EOH_DataAccess.dll.config
+C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\bin\Debug\EOH_DataAccess.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\bin\Debug\EOH_DataAccess.pdb
+C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\obj\Debug\EOH_DataAccess.dll
+C:\Users\kulileg\Desktop\EOH_App\EOH_DataAccess\obj\Debug\EOH_DataAccess.pdb

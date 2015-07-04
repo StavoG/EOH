@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EOH_DBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="EOH_DBModelStoreContainer">
+    <EntitySet Name="Employee" EntityType="EOH_DBModel.Store.Employee" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Person" EntityType="EOH_DBModel.Store.Person" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="EOH_DBModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Employee_Person" Association="EOH_DBModel.Store.FK_Employee_Person">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PersonID" Type="int" Nullable="false" />
+    <Property Name="EmployeeNum" Type="nvarchar" Nullable="false" MaxLength="16" />
+    <Property Name="EmployedDate" Type="date" Nullable="false" />
+    <Property Name="TerminatedDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="BirthDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Employee_Person">
+    <End Role="Person" Type="EOH_DBModel.Store.Person" Multiplicity="1" />
+    <End Role="Employee" Type="EOH_DBModel.Store.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="PersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
